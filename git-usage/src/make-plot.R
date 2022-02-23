@@ -34,3 +34,7 @@ ggsave(filename = "out/result.png",
 sink(file = "out/regression-summary.txt")
 summary(lm(average_rainfall ~ as.integer(month_num), data = plot_df))
 sink()
+
+sink(file = "out/package-versions.txt")
+sessionInfo()
+sink()
