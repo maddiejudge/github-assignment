@@ -1,6 +1,6 @@
 library(ggplot2)
 
-plot_df <- read.csv("data/average-rainfall")
+plot_df <- read.csv("out/average-rainfall")
 
 head(plot_df)
 
@@ -35,6 +35,6 @@ sink(file = "out/regression-summary.txt")
 summary(lm(average_rainfall ~ as.integer(month_num), data = plot_df))
 sink()
 
-sink(file = "out/package-versions.txt")
+sink(file = "out/make-plot.R-package-versions.txt")
 sessionInfo()
 sink()
