@@ -10,7 +10,7 @@ To run this analysis, you need to use two scripts. The first script combines dat
 ```
 Rscript src/combine.data.R
 ```
-The input data is in data and the results are in output
+The input data is in data and the results are in output as an intermediate result
 
 
 2. 
