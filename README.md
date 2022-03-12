@@ -1,4 +1,4 @@
-# github-assignment
+# GitHub assignment
 
 This repository contains an analysis of monthly avearage rainfall data in Oxford and Melborne from 1955 to 2015.
 
